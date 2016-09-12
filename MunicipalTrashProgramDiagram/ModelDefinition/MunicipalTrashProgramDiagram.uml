@@ -390,7 +390,7 @@
         <ownedAttributesInternal>
           <property
             Id="eb75ade2-605a-44ea-8664-2742f17daa28"
-            name="bank_id"
+            name="UserInfo_id"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"

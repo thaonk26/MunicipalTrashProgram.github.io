@@ -196,10 +196,10 @@
       <class Id="132a6664-0b90-42b2-a084-fc5f43e783aa" name="UserInfoDB" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="31faebc0-7548-4fed-8de7-9bb94b262ca8" />
         <ownedAttributesInternal>
-          <property Id="8b35b621-df19-4251-bbc0-c236aba82929" name="bank_id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+          <property Id="8b35b621-df19-4251-bbc0-c236aba82929" name="UserInfo_id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="eb75ade2-605a-44ea-8664-2742f17daa28" />
             <type_NamedElement>
-              <referencedTypeMoniker Id="7ac676e5-fd22-4abe-bf1c-1903a55c6f71" LastKnownName="int" />
+              <referencedTypeMoniker Id="a1ecaac9-3e18-4b2a-bc26-8674cd9ec1d3" LastKnownName="int" />
             </type_NamedElement>
           </property>
           <property Id="c03f7e4a-3025-4f44-bef7-27957ffe2ff7" name="monthly_Bill" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
@@ -267,6 +267,11 @@
         </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="a1ecaac9-3e18-4b2a-bc26-8674cd9ec1d3" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="d8a4f9c4-094f-4642-a0db-79e175863839" />
+      </referencedType>
+    </packageHasNamedElement>
   </packagedElements>
   <package Id="0273f3b4-74ba-4565-822a-247c3a8ac157" name="MunicipalTrashProgramDiagram">
     <elementDefinition Id="859ed81e-2331-4a09-aeb8-8ea5862bb980" />
