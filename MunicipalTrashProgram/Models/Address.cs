@@ -10,7 +10,6 @@ namespace MunicipalTrashProgram.Models
     {
         public Address()
         {
-
         }
         [Key]
         public int Address_id { get; set; }
@@ -19,6 +18,5 @@ namespace MunicipalTrashProgram.Models
         public string City { get; set; }
         public string State { get; set; }
         public int ZipCode { get; set; }
-
     }
 }
