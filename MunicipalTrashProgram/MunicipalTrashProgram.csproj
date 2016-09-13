@@ -209,6 +209,10 @@
     <Compile Include="Migrations\201609122110465_initial databases.Designer.cs">
       <DependentUpon>201609122110465_initial databases.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201609131328018_save.cs" />
+    <Compile Include="Migrations\201609131328018_save.Designer.cs">
+      <DependentUpon>201609131328018_save.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -298,6 +302,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201609122110465_initial databases.resx">
       <DependentUpon>201609122110465_initial databases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609131328018_save.resx">
+      <DependentUpon>201609131328018_save.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
