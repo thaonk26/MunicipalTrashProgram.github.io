@@ -65,16 +65,6 @@ namespace MunicipalTrashProgram.Models
     public class RegisterViewModel
     {
         [Required]
-        [Display(Name = "First Name")]
-        [DataType(DataType.Text)]
-        public string FirstName { get; set; }
-
-        [Required]
-        [Display(Name = "Last Name")]
-        [DataType(DataType.Text)]
-        public string LastName { get; set; }
-
-        [Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
